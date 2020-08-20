@@ -9,6 +9,5 @@ $(function () {
         $('.menu__list').slideToggle();
     });
 
-
 });
 
