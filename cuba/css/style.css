@@ -139,11 +139,9 @@ body{
     font-size: 14px;
     line-height: 17px;  
 }
-
 .section-line{
     border-bottom: 1px solid rgba(208, 212, 216, 0.5);
 }
-
 .about{
     padding: 80px 0 0;
 }
@@ -547,8 +545,6 @@ body{
         padding-right: 0;
     }
 }
-
-
 
 @media (min-width: 701px){
     .menu__list{
