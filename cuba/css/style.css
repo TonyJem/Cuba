@@ -236,11 +236,6 @@ body{
     top: 147px;
     right: 374px;
 }
-.about__dot--4{
-    bottom: 28px;
-    right: 299px;
-}
-
 .about__dot::after{
     content: "";
     position: absolute;
@@ -252,7 +247,6 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
 }
-
 .about__dot::before{
     content: "";
     position: absolute;
@@ -263,7 +257,6 @@ body{
     left: 25px;
     display: none;
 }
-
 .about__dot-text{
     font-weight: bold;
     font-size: 14px;
@@ -275,15 +268,12 @@ body{
     white-space: nowrap;
     display: none;
 }
-
 .about__dot:hover::before{
     display: block;
 }
-
 .about__dot:hover .about__dot-text{
     display: block;
 }
-
 .photo{
     padding: 80px 0;
 }
@@ -329,7 +319,6 @@ body{
 .slick-next{
     right: -20px
 }
-
 .footer{
     background: #F8F8F8;
     padding: 55px 0 32px;
@@ -417,15 +406,10 @@ body{
         top: 133px;
         right: 260px;
     }
-    .about__dot--4{
-        bottom: 28px;
-        right: 200px;
-    }
     .footer__item--company{
         width: 140px;
         padding-left: 0;
     }
-
 }
 
 @media (max-width: 840px){
